@@ -162,6 +162,17 @@ nav a.selected {
 
 /*** SECTION ***/
 
+.firstcap:first-of-type::first-letter {
+  color: red;
+  padding: 0 .3rem;
+  margin: 0 .3rem 0 0;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 3rem;
+  float: left;
+  line-height: 1;
+}
+
 .wrapper {
   max-width: 940px;
   margin: 0 auto;

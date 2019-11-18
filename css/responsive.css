@@ -21,6 +21,10 @@
       float: right;
   }
 
+    .firstcap:first-of-type::first-letter {
+      font-size: 2rem;
+    }
+
     }
 
 
